@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-Men - Semana do Zero ao Programador Contratado</title>
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <link rel="icon" href="/src/images/logo.svg" type="image/svg+xml">
+    <link rel="manifest" href="/manifest.webmanifest">
+    
+</head>
+
+<body>
+    <header class="header">
+        <img src="src/images/logo.svg" alt="Logo X-Men" class="logo">
+    </header>
+    <main class="character-select">
+        <section class="characters">
+            <h1 class="title">Selecione um personagem</h1>
+            <ul class="character-list">
+                <li class="character selected" id="cyclops" data-name="Ciclope" data-description="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los">
+                    <img src="src/images/card-ciclope.jpg" alt="Ciclope">
+                </li>
+                <li class="character" id="jean" data-name="Jean Grey" data-description="Jean Grey é uma mutante nível ômega e o principal avatar da Força Fênix, no qual manifesta poderes cósmicos. A telepatia e telecinese">
+                    <img src="src/images/card-jean-grey.jpg" alt="Jean Grey">
+                </li>
+                <li class="character" id="shadow-cat" data-name="Lince Negra" data-description="Ela tem o poder de atravessar matéria sólida,campos de energia,rajadas ópticas, continuando intacta,e também tem o poder de andar no ar">
+                    <img src="src/images/card-lince-negra.jpg" alt="Lince Negra">
+                </li>
+                <li class="character" id="magneto" data-name="Magneto" data-description="Ele é um mutante que nasceu com cauda, orelhas pontudas e com o poder de se Teletransportar">
+                    <img src="src/images/card-magneto.jpg" alt="Magneto">
+                </li>
+                <li class="character" id="nightcrowler" data-name="Noturno" data-description="Ele é um mutante que nasceu com cauda, orelhas pontudas e com o poder de se Teletransportar">
+                    <img src="src/images/card-noturno.jpg" alt="Noturno">
+                </li>
+                <li class="character" id="storm" data-name="Tempestade" data-description="Tem o poder de controlar as forças da natureza, muito poderosa ela pode produzir raios, chuvas, gelos, ventos, neblina, entre outros efeitos">
+                    <img src="src/images/card-tempestade.jpg" alt="Tempestade">
+                </li>
+                <li class="character" id="rogue" data-name="Vampira" data-description="Ela tem o poder de absorver a vitalidade e memória das pessoas que toca ou no caso dos mutantes os poderes e a memória, mas só temporariamente">
+                    <img src="src/images/card-vampira.jpg" alt="Vampira">
+                </li>
+                <li class="character" id="wolverine" data-name="Wolverine" data-description="Poderes. Garras Metálicas. Fator de Cura Regenerativo, Super Agilidade.">
+                    <img src="src/images/card-wolverine.jpg" alt="Wolverine">
+                </li>
+            </ul>
+        </section>
+        <section class="selected-character">
+            <img class="character-big" src="src/images/card-cyclops.png" alt="Personagem Selecionado">
+            <div class="character-info">
+                <h2 class="character-name" id="character-name">Ciclope</h2>
+                <p class="character-description" id="character-description">
+                    Ele tem o poder de disparar rajadas opticas por um acidente que aconteceu quando criança, mas não consegue controlá-los
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="/src/js/scripts.js"></script>
+</body>
+
+</html>
